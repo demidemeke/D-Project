@@ -4,14 +4,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-from sklearn.ensemble import RandomForestRegressor
 import xgboost as xgb
 from xgboost import XGBClassifier
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
 from xgboost import XGBClassifier
-from sklearn.svm import SVC
 
 st.write("""
 
