@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import shap
+#import shap
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
@@ -69,11 +69,9 @@ st.pyplot()
 # Define your algorithms
 algorithms = {
     "Decision Tree": DecisionTreeClassifier(random_state=42),
-    "K Nearest Neighbors": KNeighborsClassifier(n_jobs=-1),
     "Gradient Boosting": GradientBoostingClassifier(random_state=42),
     "Random Forest": RandomForestClassifier(n_jobs=-1, random_state=42),
-    "XGBoost": XGBClassifier(n_jobs=-1, random_state=42),
-    "Support Vector Machine": SVC(random_state=42)
+    "XGBoost": XGBClassifier(n_jobs=-1, random_state=42)
 }
 
 
