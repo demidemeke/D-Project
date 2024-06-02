@@ -18,9 +18,9 @@ st.write("""
     
     # Predicting Sand Casting Defects using a Data-Driven Supervised Machine Learning Approach: A Case Study at Akaki Basic Metals Industry
 
-    ## Cast Defect Severeity Prediction App
+    ## Cast Defect Severity Prediction App
 
-    ## This app predicts the *Cast Severeity of Defect** based on various features.
+    ## This app predicts the *Cast Severity of Defect** based on various features.
     
     **By: Demewez Demeke (GSR/0439/15)**
 
@@ -172,13 +172,13 @@ def run_model(model_name):
     
     prediction = model.predict(df)
     
-    st.header(f'Prediction of Defect Type using {model_name}')
-    st.write("Here is the predicted sand defect type:")
+    st.header(f'Prediction of severity using {model_name}')
+    st.write("Here is the predicted casting severity:")
     st.write(prediction)
     st.write('---')
     
     st.write("""
-         
+    
          #### Result Explanation 
         
          0 : Minor
